@@ -1,0 +1,111 @@
+{
+    "name": "AKASH GOEL",
+    "phone": "9310631244",
+    "email": "akashg2494@gmail.com",
+    "education": [
+        {
+            "institution": "Delhi Institute of Advanced Studies of IP University",
+            "degree": "Master of Business Administration",
+            "major": "Finance and Marketing",
+            "duration": "2014-2016",
+            "location": "Delhi"
+        },
+        {
+            "institution": "Ideal Institute of Management and Technology of IP University",
+            "degree": "Bachelor of Business Administration",
+            "major": "unknown",
+            "duration": "2011-2014",
+            "location": "unknown"
+        },
+        {
+            "institution": "Rishabh Public School",
+            "degree": "XII",
+            "major": "CBSE Board",
+            "duration": "2011",
+            "location": "Mayur Vihar, New Delhi"
+        },
+        {
+            "institution": "Rishabh Public School",
+            "degree": "X",
+            "major": "CBSE Board",
+            "duration": "2009",
+            "location": "Mayur Vihar, New Delhi"
+        }
+    ],
+    "experience": [
+        {
+            "company": "IDFC First Bank",
+            "role": "Manager (Underwriting - Education Loan)",
+            "work_done": "Rajendra Place",
+            "duration": "September 2022 - Present"
+        },
+        {
+            "company": "HDFC Bank",
+            "role": "Credit Analyst",
+            "work_done": "* Recommended creditworthiness assessments, minimizing debt losses, increasing sales.\\n* Investigated credit applications, understanding risk involved in extending credit.\\n* Ensured efficient, hassle-free process with minimal paperwork.\\n* Made real-time decisions aligned with current credit policy.\\n* Monitored delinquency PAN India monthly.\\n* Published MIS for bounce data monthly.\\n* Conducted root cause analysis for bounce cases, sharing feedback with PAN India credit team.",
+            "duration": "2 years"
+        },
+        {
+            "company": "Axis Bank",
+            "role": "Deputy Manager (Underwriting - Credit Cards)",
+            "work_done": "Noida",
+            "duration": "August 2021 - September 2022"
+        },
+        {
+            "company": "[Company Name]",
+            "role": "Credit Underwriting Analyst",
+            "work_done": "* Executed credit underwriting activities, overcoming complex business challenges.\\n* Processed card proposals and sanctions adhering to bank norms, evaluating factors like CIBIL, ITR, past track, and bank product.\\n* Assessed risk level for individual applicants.",
+            "duration": "[Duration]"
+        },
+        {
+            "company": "HDFC Bank",
+            "role": "Deputy Manager (Underwriting - Credit Cards, Auto Loan)",
+            "work_done": "Delhi",
+            "duration": "Sep 2019 - August 2021"
+        },
+        {
+            "company": "Company Name",
+            "role": "Credit Underwriter",
+            "work_done": "* Underwrote credit based on individual financial health, scrutinizing financial and policy parameters.\\n* Processed proposals and sanctions adhering to bank norms, evaluating factors like CIBIL, ITR, past track, and bank product.\\n* Reviewed detailed historical and projected financial analysis using tax returns, financial statements, and income documents.\\n* Made logical decisions on deviations, minimizing errors.\\n* Coordinated with sales, branch, DIP, quality, and policy teams.\\n* Analyzed portfolio delinquency by channel and product.",
+            "duration": "Duration"
+        },
+        {
+            "company": "Google",
+            "role": "Software Engineer",
+            "work_done": "Developed and maintained software applications.",
+            "duration": "2 years"
+        },
+        {
+            "company": "HDFC Bank",
+            "role": "Credit Analyst",
+            "work_done": "* Examined credit applications, ensuring all criteria met policy requirements.\\n* Called applicants, understanding their situation and reason for restructuring loan.\\n* Adhered to RBI guidelines for restructuring.\\n* Reviewed and analyzed special conditions, credit card deficiencies, and exception requests to determine appropriate action.",
+            "duration": "2 years"
+        },
+        {
+            "company": "WNS Global Services",
+            "role": "Senior Associate (Underwriting - Education Loan)",
+            "work_done": "Gurugram",
+            "duration": "January 2018 - Aug 2019"
+        },
+        {
+            "company": "Company Name",
+            "role": "Loan Officer",
+            "work_done": "* Evaluated financial strength of individuals and businesses, analyzing credit bureau reports and financial statements.\\n* Reviewed and disposed of conforming education loan applications timely.\\n* Made calculations for qualifying and administered decisions using proprietary loan origination systems.\\n* Ensured compliance amidst changing underwriting scenarios for an international process.\\n* Improved process efficiency by developing spreadsheets managing loan review aspects, limiting data validation errors.\\n* Managed pipeline of over 25 schools, meeting deadlines while guiding clients through underwriting.",
+            "duration": "Duration"
+        },
+        {
+            "company": "Xceedance Consulting India Private Limited",
+            "role": "Analyst (Underwriting)",
+            "work_done": "Gurugram",
+            "duration": "June 2016 - Dec 2017"
+        },
+        {
+            "company": "Berkshire Hathaway Specialty Insurance Company and Hallmark Insurance Group",
+            "role": "Underwriting Support",
+            "work_done": "Provided underwriting support to underwriters. Created submissions and quotes (property and aviation lines of business) for Hallmark Insurance Group. Conducted audits/quality checks of submissions processed by team members. Achieved quality standards and SLAs committed to clients. Monitored work, managed daily volumes, and leveraged cross-trainings. Prepared standard operating procedures (SOP) and process workflow. Provided training to new team members.",
+            "duration": "N/A"
+        }
+    ],
+    "skills": "Ability to inspire and guide teams.\\nQuick learner and analytical decision maker.\\nEfficient organizational skills, prioritizing multiple demands.\\nPositive time management and people management skills.\\nHighly motivated self-starter.",
+    "certifications": ""
+}

@@ -1,0 +1,7 @@
+langgraph
+langchain-core
+langchain-community
+langchain_google_genai
+PyPDF2
+python-docx
+docx2txt

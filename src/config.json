@@ -1,0 +1,6 @@
+{
+    "GOOGLE_API_KEY": "",
+    "input_file_path" : "./input/input.json",
+    "output_file_path" : "./output/output.json"
+}
+  
