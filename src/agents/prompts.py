@@ -1,4 +1,4 @@
-# prompt = (
+# prompt_v1 = (
 #     "Please extract the following information from the resume text provided and format it as specified:\n"
 #     "Note: In the following entities, if any result is not present, feel free to return an empty string.\n"
 #     "- **Name**: Full name of the candidate.\n"
@@ -11,7 +11,7 @@
 #     "From the following resume, if any result is not present, strictly feel free to return an empty string: {resume_text}"
 # )
 
-# prompt = (
+# prompt_v2 = (
 #     "Please extract the following information from the resume text provided and format it as specified:\n"
 #     "Note: In the following entities, if any result is not present, feel free to return an empty string.\n"
 #     "- **Name**: Provide the full name of the candidate. If not present, return an empty string.\n"

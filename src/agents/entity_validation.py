@@ -5,8 +5,17 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 
 def entity_validation(state: ResumeState):
+    """
+    Validates the extracted entities from the resume text using a language model and updates the state with the validated entities.
+
+    Args:
+        state (ResumeState): A state containing the resume text, extracted entities, and other state information.
+
+    Returns:
+        ResumeState: A State containing the resume text, extracted entities, validated entities, and the current stage of processing.
+    """
     set_key('./config.json', 'GOOGLE_API_KEY')
-    llm = ChatGoogleGenerativeAI(model = "gemini-1.5-flash", temperature=0)
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
 
     extracted_entities = state['extracted_entities']
     formatted_entities = {
@@ -21,13 +30,16 @@ def entity_validation(state: ResumeState):
 
     validation_results = validate_entities(formatted_entities)
     print("\n\n", validation_results, "\n\n")
+    
     # Remove the empty validation list
     validation_results = {k: v for k, v in validation_results.items() if v}
     
-    return {"resume_text": state['resume_text'],
-            "extracted_entities": state['extracted_entities'],
-            "validated_entities": validation_results,
-            "current_stage": "_END_"}
+    return {
+        "resume_text": state['resume_text'],
+        "extracted_entities": state['extracted_entities'],
+        "validated_entities": validation_results,
+        "current_stage": "_END_"
+    }
             
 
 # extracted_data = {

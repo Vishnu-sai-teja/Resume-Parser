@@ -3,23 +3,36 @@ from utils.utils import read_file, set_key
 from .state import ResumeState
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-def resume_reader(state: ResumeState):
 
+def resume_reader(state: ResumeState):
+    """
+    Read the resume file and process the text using the language model ,for further processing
+
+    Args:
+        state (ResumeState): A langgraph state containing the file path of the resume and other state information.
+
+    Returns:
+        dict: A state containing the processed resume text and the current stage of processing.
+    """
     set_key('./config.json', 'GOOGLE_API_KEY')
-    llm = ChatGoogleGenerativeAI(model = "gemini-1.5-flash", temperature=0)
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
 
     resume_path = state['file_path']
     try:
-        prompt = "Do not loose any information from the resume, format the resume details and filter out any stopwords \n\n Here is the resume : {resume}"
+        prompt = (
+            "Do not lose any information from the resume, format the resume details "
+            "and filter out any stopwords \n\n Here is the resume : {resume}"
+        )
         if not resume_path:
             raise ValueError('No resume file path provided')
         resume_text = read_file(resume_path)
         response = llm.invoke(prompt.format(resume=resume_text))
-        # print(response.content)
-        return {"resume_text" : response.content,
-                "current_stage": "entity_extraction"}
-    except:
-        raise ValueError('Error reading resume file')
+        return {
+            "resume_text": response.content,
+            "current_stage": "entity_extraction"
+        }
+    except Exception as e:
+        raise ValueError('Error reading resume file') from e
     
 
 # if __name__ == "__main__":
