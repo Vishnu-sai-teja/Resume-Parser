@@ -20,8 +20,8 @@ def resume_reader(state: ResumeState):
     resume_path = state['file_path']
     try:
         prompt = (
-            "Do not lose any information from the resume, format the resume details "
-            "and filter out any stopwords \n\n Here is the resume : {resume}"
+            "format the resume , Here is the resume: {resume}"
+            "Note : Do not remove any details from the resume or add any details to the text"
         )
         if not resume_path:
             raise ValueError('No resume file path provided')

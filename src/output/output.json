@@ -1,111 +1,37 @@
 {
-    "name": "AKASH GOEL",
-    "phone": "93106312446",
-    "email": "akashg2494@gmail.com",
+    "name": "Vishnu Sai Teja Nagabandi",
+    "phone": "+91 89 78044062",
+    "email": "vishnusaiteja.3004@gmail.com",
     "education": [
         {
-            "institution": "Delhi Institute of Advanced Studies of IP University",
-            "degree": "Master of Business Administration",
-            "major": "Finance and Marketing",
-            "duration": "2014-2016",
-            "location": "Delhi"
+            "institution": "IIIT NAGPUR",
+            "degree": "B.Tech",
+            "major": "Computer Science",
+            "duration": "Expected Graduation: 2025",
+            "location": "Nagpur, Maharashtra"
         },
         {
-            "institution": "Ideal Institute of Management and Technology of IP University",
-            "degree": "Bachelor of Business Administration",
-            "major": "unknown",
-            "duration": "2011-2014",
-            "location": "unknown"
-        },
-        {
-            "institution": "Rishabh Public School",
-            "degree": "XII",
-            "major": "CBSE Board",
-            "duration": "2011",
-            "location": "Mayur Vihar, New Delhi"
-        },
-        {
-            "institution": "Rishabh Public School",
-            "degree": "X",
-            "major": "CBSE Board",
-            "duration": "2009",
-            "location": "Mayur Vihar, New Delhi"
+            "institution": "SRI CHAITHANYA",
+            "degree": "Senior Secondary Education",
+            "major": "Overall Percentage: 98.2%",
+            "duration": "Graduated: 2021",
+            "location": "Hyderabad, Telangana"
         }
     ],
     "experience": [
         {
-            "company": "IDFC First Bank",
-            "role": "Manager (Underwriting - Education Loan)",
-            "work_done": "Rajendra Place",
-            "duration": "September 2022 - Present"
+            "company": "AIDASH",
+            "role": "Data Science Intern",
+            "work_done": "Implemented an end-to-end asset geotagging pipeline using street view imagery, optimizing object detection, depth and height estimation.\\nDesigned and implemented asynchronous processing and parallelization, significantly boosting pipeline efficiency and maximizing hardware resource utilization.\\nFine-tuned detection models for specific assets, achieving faster processing times and improved accuracy in geolocating assets.",
+            "duration": "April 2024 - Present"
         },
         {
-            "company": "HDFC Bank",
-            "role": "Credit Analyst",
-            "work_done": "* Recommended creditworthiness assessments, minimized debt losses, increased sales.\\n* Investigated credit applications, assessed risk involved in extending credit.\\n* Ensured efficient, hassle-free process with minimal paperwork.\\n* Made real-time decisions aligned with current credit policy.\\n* Monitored delinquency PAN India monthly.\\n* Published MIS for bounce data monthly.\\n* Conducted root cause analysis for bounce cases, shared feedback with PAN India credit team.",
-            "duration": "2 years"
-        },
-        {
-            "company": "Axis Bank",
-            "role": "Deputy Manager (Underwriting - Credit Cards)",
-            "work_done": "Noida",
-            "duration": "August 2021 - September 2022"
-        },
-        {
-            "company": "Company Name",
-            "role": "Credit Underwriter",
-            "work_done": "* Executed credit underwriting activities, overcame complex business challenges.\\n* Processed card proposals and sanctions adhering to bank norms, evaluated factors (CIBIL, ITR, Past Track).\\n* Assessed risk level for individual applicants.",
-            "duration": "Duration"
-        },
-        {
-            "company": "HDFC Bank",
-            "role": "Deputy Manager (Underwriting - Credit Cards, Auto Loan)",
-            "work_done": "Delhi",
-            "duration": "Sep 2019 - August 2021"
-        },
-        {
-            "company": "[Company Name]",
-            "role": "Credit Underwriter",
-            "work_done": "* Underwrote credit based on individual financial health, scrutinizing financial and policy parameters.\\n* Processed proposals and sanctions adhering to bank norms, evaluated factors (CIBIL, ITR, PAST Track).\\n* Reviewed historical and projected financial analysis using tax returns, financial statements, income documents.\\n* Made logical decisions on deviations, minimized errors.\\n* Coordinated with sales, branch, DIP, quality, and policy teams.\\n* Analyzed portfolio delinquency by channel and product.",
-            "duration": "[Duration]"
-        },
-        {
-            "company": "Google",
-            "role": "Software Engineer",
-            "work_done": "Developed and maintained software applications.",
-            "duration": "2 years"
-        },
-        {
-            "company": "HDFC Bank",
-            "role": "Credit Analyst",
-            "work_done": "* Examined credit applications, verified information against policy criteria.\\n* Called applicants, understood situation and reason for restructuring loan.\\n* Adhered to RBI guidelines for restructuring.\\n* Reviewed and analyzed special conditions, credit card deficiencies, exception requests.",
-            "duration": "2 years"
-        },
-        {
-            "company": "WNS Global Services",
-            "role": "Senior Associate (Underwriting - Education Loan)",
-            "work_done": "Gurugram",
-            "duration": "January 2018 - Aug 2019"
-        },
-        {
-            "company": "Company Name",
-            "role": "Loan Underwriter",
-            "work_done": "* Evaluated financial strength of individuals and businesses, analyzed credit bureau reports and financial statements.\\n* Reviewed and disposed of conforming education loan applications.\\n* Made calculations for qualifying and administered decisions using proprietary loan origination systems.\\n* Ensured compliance with changing underwriting scenarios for international process.\\n* Improved process efficiency by developing spreadsheets, managed loan review and limited data validation errors.\\n* Managed pipeline of over 25 schools, met deadlines, guided clients through underwriting process.",
-            "duration": "Duration"
-        },
-        {
-            "company": "Xceedance Consulting India Private Limited",
-            "role": "Analyst (Underwriting)",
-            "work_done": "Gurugram",
-            "duration": "June 2016 - Dec 2017"
-        },
-        {
-            "company": "Berkshire Hathaway Specialty Insurance Company and Hallmark Insurance Group",
-            "role": "Underwriting Support",
-            "work_done": "Provided underwriting support to underwriters. Created submissions and quotes (Property and Aviation Lines of Business) for Hallmark Insurance Group. Conducted audits/quality checks of submissions processed by team members. Achieved quality standards and SLAs as committed to clients. Monitored work, managed daily volumes, leveraged cross trainings. Prepared standard operating procedures (SOP) and workflow of the process. Provided training to new joiners in the team.",
-            "duration": "N/A"
+            "company": "VLIPPR",
+            "role": "ML and Data Science Intern",
+            "work_done": "Contributed to Vaanee, an audio model specializing in Indian languages.\\nLed efforts in the preprocessing of intricate audio data.\\nProposed and implemented techniques for audio pre and post processing to enhance the accuracy of audio transcription.",
+            "duration": "November 2023 - February 2024"
         }
     ],
-    "skills": "Ability to inspire and guide team.\\nQuick learner and analytical decision maker.\\nEfficient organizational skills, prioritizes multiple demands.\\nPositive time management and people management skills.\\nHighly motivated self-starter.",
-    "certifications": ""
+    "skills": "C++\\nPython\\nJava\\nBasic - Shell\\nBasic - Rust\\nCSS\\nJS\\n\\nLangChain\\nPyTorch\\nBasic - Django\\nMySQL\\nBasic - PHP\\n\\nNumpy\\nPandas\\nMatplotlib\\nSci-kit Learn\\n nltk\\nBasic - fastai",
+    "certifications": "None"
 }
