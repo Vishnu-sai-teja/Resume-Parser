@@ -14,10 +14,16 @@ def entity_extractor(state):
     Returns:
         ResumeState : A State containing the resume text, extracted entities, and the current stage of processing.
     """
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
-    response = llm.with_structured_output(ExtractorState).invoke(state['resume_text'])
-    print(response)
 
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
+    resume_text = state['resume_text']
+
+    if(resume_text == ''):
+        print("We are here : \n\n")
+        raise ValueError('Error extracting resume information')
+    
+    response = llm.with_structured_output(ExtractorState).invoke(resume_text)
+    # print(response)
     try:
         # Extract education details
         degrees = response.education.split('\\n\\n')
