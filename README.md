@@ -34,6 +34,8 @@ This project implements a multi-agent workflow for processing resumes using Larg
 
 ## Usage
 
+* Set the src as the root file 
+
 To process a resume, run the following command:
 
 ```
@@ -68,7 +70,11 @@ This project uses LangGraph and LangSmith for monitoring LLM calls. To view the 
 
 ## Testing
 
-Testing has not been implemented yet. Future updates will include unit tests to ensure the reliability and correctness of each component.
+Testing of all the agents have been implemented using the `pytest` library
+- `tests` :
+  - `test_resume_reader.py`  : Define unit tests for resume reader agent
+  - `test_entity_extractor.py` : Define unit test cases for entity extraction agent
+  - `test_entity_Validation.py` : Define unit test cases for the entity validation agent
 
 ## Assumptions and Design Decisions
 
