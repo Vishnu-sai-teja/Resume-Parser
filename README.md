@@ -1,4 +1,4 @@
-# Multi-Agent Resume Processor
+# Multi-Agent Resume Parser
 
 ## Project Overview
 
